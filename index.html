@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+    </style>
+</head>
+<body>
+
+    <div class="content-container">
+
+        
+        <div class="page-left">
+            <img class="pizza-background" src="/images/pizza-background.jpg" alt="two pizzas in separate boxes">
+            <div class="logo">
+                <img src="images/plaza-pizza-logo.png" alt="Plaza Pizarria Logo">
+            </div>
+            <footer>
+                Photo by <a href="https://unsplash.com/pt-br/@chakiliza02?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Prince Charles Malaque</a> on <a href="https://unsplash.com/pt-br/fotografias/pizza-na-placa-de-ceramica-branca-OEwsCo_-RZY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </footer>
+        </div>
+
+
+        <div class="page-right">
+
+
+            <div class="head">
+                <div class="text">Log in to access your dashboard, manage your orders, customize your favorite pizzas, and enjoy the best of our kitchen.</div>
+                <div class="text">We're ready to bring you more flavor — with speed, care, and that special touch only <span>Plaza Pizzerias</span> can offer.</div>
+            </div>
+
+
+            <div class="body">
+                <h1>Let's do this!</h1>
+                <form action="#" id="form">
+                    <div>
+                        <label for="f-name">FIRST NAME</label>
+                        <input type="text" name="f-name" id="f-name">
+                    </div>
+                    <div>
+                        <label for="l-name">LAST NAME</label>
+                        <input type="text" name="l-name" id="l-name">
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div>
+                        <label for="psw">PASSWORD</label>
+                        <input type="password" name="psw" id="psw" minlength="8" required>
+                    </div>
+                    <div>
+                        <label for="c-psw">CONFIRM PASSWORD</label>
+                        <input type="password" name="c-psw" id="c-psw" minlength="8" required>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="footer">
+                <button type="submit" form="form">Create Account</button>
+                <div class="log-in">
+                    <div>Already have an account?</div>
+                    <a href="#">Log in</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
